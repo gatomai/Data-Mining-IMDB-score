@@ -1,0 +1,99 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     mydata-weka.filters.unsupervised.attribute.Remove-R1-5-weka.filters.unsupervised.attribute.Discretize-B4-M-1.0-R39-weka.filters.unsupervised.attribute.NumericToNominal-R11-38
+Instances:    11499
+Attributes:   39
+              ratingCount
+              duration
+              year
+              type
+              nrOfWins
+              nrOfNominations
+              nrOfPhotos
+              nrOfNewsArticles
+              nrOfUserReviews
+              nrOfGenre
+              Action
+              Adult
+              Adventure
+              Animation
+              Biography
+              Comedy
+              Crime
+              Documentary
+              Drama
+              Family
+              Fantasy
+              FilmNoir
+              GameShow
+              History
+              Horror
+              Music
+              Musical
+              Mystery
+              News
+              RealityTV
+              Romance
+              SciFi
+              Short
+              Sport
+              TalkShow
+              Thriller
+              War
+              Western
+              imdbRating
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 39 imdbRating):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.2011     4 type
+ 0.14819    5 nrOfWins
+ 0.11149    1 ratingCount
+ 0.09511    6 nrOfNominations
+ 0.07279    7 nrOfPhotos
+ 0.06336    8 nrOfNewsArticles
+ 0.06051   35 TalkShow
+ 0.06012    9 nrOfUserReviews
+ 0.05495   36 Thriller
+ 0.0526    11 Action
+ 0.05068   10 nrOfGenre
+ 0.04238   32 SciFi
+ 0.04066   25 Horror
+ 0.04062   38 Western
+ 0.03493   19 Drama
+ 0.03454   13 Adventure
+ 0.03079   31 Romance
+ 0.02829   17 Crime
+ 0.02746   24 History
+ 0.02467    3 year
+ 0.02314   29 News
+ 0.02292   20 Family
+ 0.02245   16 Comedy
+ 0.02245   37 War
+ 0.02078   18 Documentary
+ 0.01993   15 Biography
+ 0.01978    2 duration
+ 0.01948   33 Short
+ 0.01713   22 FilmNoir
+ 0.01603   14 Animation
+ 0.01489   21 Fantasy
+ 0.01327   30 RealityTV
+ 0.01262   26 Music
+ 0.01257   12 Adult
+ 0.01242   28 Mystery
+ 0.01208   34 Sport
+ 0.00524   23 GameShow
+ 0.00401   27 Musical
+
+Selected attributes: 4,5,1,6,7,8,35,9,36,11,10,32,25,38,19,13,31,17,24,3,29,20,16,37,18,15,2,33,22,14,21,30,26,12,28,34,23,27 : 38
+
